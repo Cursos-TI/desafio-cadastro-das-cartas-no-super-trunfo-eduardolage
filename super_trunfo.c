@@ -6,10 +6,10 @@ int main () {
     int populacao, turismo;
     float area, pib;
 
-    printf("A populacao e de: \n");
+    printf("Digite a populacao: \n");
     scanf("%d", &populacao);
 
-    printf("A area e de: \n");
+    printf("Digite a area: \n");
     scanf("%f", &area);
     
     printf("A populacao e de: %d \nA area e de: %f", populacao, area);
