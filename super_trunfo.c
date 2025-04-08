@@ -3,16 +3,17 @@
 int main () {
     printf("Desafio Super Trunfo em C\n");
 
-    int populacao, turismo;
-    float area, pib;
+    int populacao = 10000;
+    int turismo = 50;
+    float area = 10.500;
+    float pib = 500000;
+    char estado = 'A';
+    char cidade [30] = "BH";
+    char cartacdg [30] = "A01";
 
-    printf("Digite a populacao: \n");
-    scanf("%d", &populacao);
-
-    printf("Digite a area: \n");
-    scanf("%f", &area);
     
-    printf("A populacao e de: %d \nA area e de: %.2f", populacao, area);
+    
+    printf("A populacao e de: %d \nA area e de: %c", populacao, estado);
 
 
 
