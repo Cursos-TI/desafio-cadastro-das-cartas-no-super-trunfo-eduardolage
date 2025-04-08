@@ -12,7 +12,7 @@ int main () {
     printf("Digite a area: \n");
     scanf("%f", &area);
     
-    printf("A populacao e de: %d \nA area e de: %f", populacao, area);
+    printf("A populacao e de: %d \nA area e de: %.2f", populacao, area);
 
 
 
