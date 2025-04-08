@@ -5,6 +5,11 @@ int main () {
     int populacao, turismo;
     float area, pib;
 
+    printf("Populacao e de: \n");
+    scanf("%d", &populacao);
+    
+    
+
 
 
 
