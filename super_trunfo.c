@@ -8,8 +8,8 @@ int main () {
     char Codigo[30] = "A01";
     char Cidade[30] = "BeloHorizonte";
     int Populacao = 10500;
-    float Area = 10000;
-    float PIB = 500000;
+    float Area = 10.000;
+    float PIB = 500.000;
     int Turismo = 50;
 
 
