@@ -7,7 +7,7 @@ int main () {
     char Estado = 'A';
     char Codigo[30] = "A01";
     char Cidade[30] = "BeloHorizonte";
-    int Populacao = 10500;
+    float Populacao = 100.000;
     float Area = 10.000;
     float PIB = 500.000;
     int Turismo = 50;
@@ -19,9 +19,9 @@ int main () {
     printf("ESTADO:%c\n", Estado);
     printf("CODIGO DA CARTA:%s\n", Codigo);
     printf("NOME DA CIDADE:%s\n", Cidade);
-    printf("POPULACAO:%d\n", Populacao);
-    printf("AREA:%f\n", Area);
-    printf("PIB:%f\n", PIB);
+    printf("POPULACAO:%.3f\n", Populacao);
+    printf("AREA:%.3fkm²\n", Area);
+    printf("PIB:%.6f bilhoes de reais\n", PIB);
     printf("PONTOS TURISTICOS:%d\n", Turismo);
 
 
