@@ -3,17 +3,27 @@
 int main () {
     printf("Desafio Super Trunfo em C\n");
 
-    int populacao = 10000;
-    int turismo = 50;
-    float area = 10.500;
-    float pib = 500000;
-    char estado = 'A';
-    char cidade [30] = "BH";
-    char cartacdg [30] = "A01";
+    int Carta = 1;
+    char Estado = 'A';
+    char Codigo[30] = "A01";
+    char Cidade[30] = "BeloHorizonte";
+    int Populacao = 10500;
+    float Area = 10000;
+    float PIB = 500000;
+    int Turismo = 50;
+
 
     
     
-    printf("A populacao e de: %d \nA area e de: %c", populacao, estado);
+    printf("CARTA:%d\n", Carta);
+    printf("ESTADO:%c\n", Estado);
+    printf("CODIGO DA CARTA:%s\n", Codigo);
+    printf("NOME DA CIDADE:%s\n", Cidade);
+    printf("POPULACAO:%d\n", Populacao);
+    printf("AREA:%f\n", Area);
+    printf("PIB:%f\n", PIB);
+    printf("PONTOS TURISTICOS:%d\n", Turismo);
+
 
 
 
