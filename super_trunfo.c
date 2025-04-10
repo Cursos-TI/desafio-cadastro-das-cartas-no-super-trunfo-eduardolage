@@ -44,6 +44,8 @@ int main () {
     printf("PIB:%.6f bilhoes de reais\n", PIB2);
     printf("PONTOS TURISTICOS:%d\n", Turismo2);
 
+    
+
 
    
 
