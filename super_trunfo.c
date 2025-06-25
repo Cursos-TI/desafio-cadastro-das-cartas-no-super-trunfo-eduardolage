@@ -13,6 +13,8 @@ int main () {
     float PIB = 500.00;
     int Turismo = 50;
 
+    //int:%d, char:%c, float:%f ou %.(numero de numeros)f
+
 
     
     
@@ -25,6 +27,8 @@ int main () {
     printf("PIB:%.6f bilhoes de reais\n", PIB);
     printf("PONTOS TURISTICOS:%d\n", Turismo);
     printf("\n");
+
+    //butar scanf
 
     int Carta2 = 2;
     char Estado2 = 'B';
