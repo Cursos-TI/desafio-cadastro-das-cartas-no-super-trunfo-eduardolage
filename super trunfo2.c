@@ -3,32 +3,46 @@
 int main () {
     printf("Desafio Super Trunfo em C\n");
 
-    int Carta;
+    int Carta, Turismo, Populacao, Carta2,Turismo2, Populacao2;
     char Estado;
-    char Codigo[30];
-    char Cidade[30];
-    int Populacao;
-    float Area;
-    float PIB;
-    int Turismo;
-
+    float Area, PIB, Area2, PIB2;
+    
     //int:%d, char:%c (%s de string na real), float:%f ou %.(numero de numeros)f (ex:%.2f)
 
 
-    printf("Digite o numero da carta: \n");
+    printf("Digite o numero da carta 1: \n");
     scanf("%d", &Carta);
 
-    printf("Digite a populacao: \n");
+    printf("Digite a populacao da carta 1: \n");
     scanf("%d", &Populacao);
 
-    printf("Digite a area: \n");
+    printf("Digite a area da carta 1: \n");
     scanf("%f", &Area);
 
-    printf("Digite o PIB: \n");
+    printf("Digite o PIB da carta 1: \n");
     scanf("%f", &PIB);
 
-    printf("Digite o numero de pontos turisticos: \n");
+    printf("Digite o numero de pontos turisticos da carta 1: \n");
     scanf("%d", &Turismo);
+
+    printf("Digite o numero da carta 2: \n");
+    scanf("%d", &Carta2);
+
+    printf("Digite a populacao da carta 2: \n");
+    scanf("%d", &Populacao2);
+
+    printf("Digite a area da carta 2: \n");
+    scanf("%f", &Area2);
+
+    printf("Digite o PIB da carta 2: \n");
+    scanf("%f", &PIB2);
+
+    printf("Digite o numero de pontos turisticos da carta 2: \n");
+    scanf("%d", &Turismo2);
+
+
+
+
 
 
 
